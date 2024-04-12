@@ -74,7 +74,7 @@
   margin-top: 2em;
 }
 
-.container img{
+.container img:not(.press-coverage){
     max-width: 100%;
     height: auto;
     width: 100%;
@@ -118,4 +118,20 @@
 
 .free-content p{
   margin-top: 1em;
+}
+
+.carousel{
+  margin-top: 5em;
+}
+
+.carousel-inner{
+  width: 80% !important;
+}
+
+.visit-friend img{
+  margin-bottom: 3em;
+}
+
+.visit-friend p{
+  margin-bottom: 2em;
 }
