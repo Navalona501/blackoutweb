@@ -166,3 +166,29 @@
   align-items: center;
   gap: 10px;
 }
+
+.team{
+  background-color: #E83046;
+  width: 100%;
+  padding-top: 1em;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+
+}
+
+.footer-logo svg{
+  margin: 0.25em;
+}
+
+.team .content{
+  max-width: 60%;
+}
+
+.footer-logo{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
